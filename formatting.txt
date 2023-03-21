@@ -1,0 +1,23 @@
+https://users.ece.cmu.edu/~eno/coding/CCodingStandard.html
+
+Notable exceptions to above:
+structs not defined as typedef will be snake_case
+typedef structs should be CamelCase, including first letter
+
+Notable additions to above:
+'private' struct members should be marked with an _ before the name:
+ - "_private_member"
+(not stated) methods should be snake_case, and verbs
+
+include method prefixes based on usage
+ - r_ : rendering methods
+ - g_ : game methods
+    - gm_ : map methods
+    - ge_ : entity methods
+    - gp_ : physics methods
+
+Files:
+filenames should be understandable- split files when possible (for different objects)
+ - no filename prefix needed: unnecessary path length, filepath should explain context of the file.
+shaders should be placed into folders named based on their usage. The 
+actual filenames of the shaders should be simple: "vert.glsl", "frag.glsl", etc.

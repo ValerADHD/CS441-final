@@ -1,0 +1,9 @@
+My proposal for project 3 is to create a "shader gallery" program to showcase
+various shader effects. Initially, I want to implement a set of shaders to 
+showcase the differences between per-vertex phong shading and per-fragment
+phong shading. After this, I want to try and implement a series of toon
+shading effects. I plan to make these all accessible within the same program,
+and showcased using different models that highlight the differences in each
+effect. If I find that I have extra time, I want to make each 'piece' in the 
+gallery interactive: allow the camera to orbit, add UI to control parameters
+in the shaders, etc.
